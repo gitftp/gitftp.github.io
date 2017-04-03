@@ -1,3 +1,57 @@
-body .hey {
-  color: red;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+.c {
+  font-family: 'Nunito', sans-serif;
+}
+.bar {
+  height: 10px;
+  width: 100%;
+  background: #0091ea;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0091ea 0%, #00b0ff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0091ea 0%, #00b0ff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0091ea 0%, #00b0ff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0091ea', endColorstr='#00b0ff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+nav {
+  padding: 20px;
+}
+nav .nav {
+  display: inline-block;
+}
+nav .nav.t {
+  vertical-align: top;
+  padding: 10px;
+  margin-right: 10px;
+}
+nav .nav img {
+  height: 40px;
+}
+nav .zmdi {
+  font-size: 38px;
+}
+.hero {
+  padding: 100px 20px;
+}
+.hero h1 {
+  color: #0092eb;
+}
+.hero h3 {
+  color: #656565;
+  line-height: 36px;
+}
+.hero img {
+  border-radius: 7px;
+  width: 100%;
+  max-width: 1310px;
+  margin: 90px 20px 0;
 }
